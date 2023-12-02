@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 0 0 105px 0;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    align-self: center;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    padding-bottom: 75px;
+}
+
+.main-text {
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.main-subtext {
+    color: #F9FAF8;
+}
+
+.product-image {
+    height: 300px;
+    width: auto;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius: 5px;
+    padding: 5px 23px;
+    text-decoration: none;
+    border: none;
+}
