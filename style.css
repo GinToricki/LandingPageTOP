@@ -124,3 +124,36 @@ a {
     align-self: flex-end;
     margin-right: 550px;
 }
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-s {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 25px 150px;
+    border-radius: 15px;
+    margin: 125px 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.sign-up.cta-btn {
+    align-self: center;
+    border: solid 1px white;
+}
+
+.cta-container {
+    flex-grow: 2;
+}
